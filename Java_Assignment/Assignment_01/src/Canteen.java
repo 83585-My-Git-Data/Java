@@ -16,7 +16,7 @@ public class Canteen {
 		do {
 			
 			System.out.println("Choose your Item : ");
-			System.out.println("Press 1 ->  Samosa: --------------  RS 10");
+			System.out.println("Press 1 ->  Samosa: -------------- RS 10");
 			System.out.println("Press 2 -> Idli	 : --------------  RS 15");
 			System.out.println("Press 3 -> Dosa	 : --------------  RS 30");
 			System.out.println("Press 4 -> Vada	 : --------------  RS 25");
@@ -28,7 +28,7 @@ public class Canteen {
 			case 1:System.out.println("Samosa");
 			System.out.println("Enter the Quantity : ");
 			quantity = sc.nextInt();
-			bill =+10*quantity;
+			bill +=10*quantity;
 				break;
 				
 			case 2:System.out.println("Idli");
@@ -40,13 +40,13 @@ public class Canteen {
 			case 3:System.out.println("Dosa");
 			System.out.println("Enter the Quantity : ");
 			quantity = sc.nextInt();
-			bill =+30*quantity;
+			bill +=30*quantity;
 				break;
 			
 			case 4:System.out.println("Vada");
 			System.out.println("Enter the Quantity : ");
 			quantity = sc.nextInt();
-			bill =+25*quantity;
+			bill +=25*quantity;
 				break;
 			
 			case 5:System.out.println("Your final bill is : ");
