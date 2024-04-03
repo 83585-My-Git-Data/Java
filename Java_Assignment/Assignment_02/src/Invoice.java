@@ -51,7 +51,7 @@ public void setPrice(double price) {
 }
 
 void calculate_Invoice() {
-	if(quantity<0) {
+	if(quantity<0 && price_per_item<0) {
 //		System.out.println("Quantity cannot be Zero !!!");
 		quantity = 0;
 		price_per_item = 0;

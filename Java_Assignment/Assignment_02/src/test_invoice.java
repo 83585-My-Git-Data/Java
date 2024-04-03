@@ -2,7 +2,7 @@
 public class test_invoice {
 
 	public static void main(String[] args) {
-		double amount;
+//		
 		
 		Invoice in = new Invoice("001","Hammer",2,40 );
 		Invoice bin = new Invoice("002","Shoes",3,30 );
