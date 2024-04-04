@@ -22,6 +22,4 @@ public class TestPoint2D {
 			System.out.println(result);
 		}
 	}
-	
-	
 }
